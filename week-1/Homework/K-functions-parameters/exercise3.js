@@ -5,4 +5,4 @@ function createGreeting (name){
 
 var greeting = createGreeting("Daniel");
 
-console.log(greeting);
+console.log(greeting); 
