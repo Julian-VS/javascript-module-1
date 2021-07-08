@@ -6,8 +6,13 @@
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
-}
+  if (arr == "")
+  {
+    return true; // complete this statement
+  } else {
+    return false;
+  }
+  }
 
 /* 
   DO NOT EDIT BELOW THIS LINE
