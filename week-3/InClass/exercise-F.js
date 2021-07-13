@@ -3,6 +3,4 @@ let year = new Date().getFullYear();
 
 const GreenLight = BirthYear.map(num => num <= (year-17) ?  "Born in " + (num) + " can drive.": "Born in " + (num) + " can drive in " +(num-(year-17))+" years.")
 
-console.log (GreenLight)
-
-
+GreenLight.forEach(mssg => console.log(mssg))
