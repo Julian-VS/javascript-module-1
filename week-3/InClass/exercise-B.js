@@ -4,9 +4,9 @@ function print_sorted_list (arr){
 
 function search (name, arr1, arr2){
     if (arr1.includes(name)){
-        console.log(`Si, ${name} pertence a la primer clase junto con: ${arr1}`)
+        console.log(`Si, ${name} pertence a la primer clase junto con: ${arr1.join(', ')}`)
     } else if (arr2.includes(name)){
-        console.log(`Si, ${name} pertence a la segunda clase junto con: ${arr2}`)
+        console.log(`Si, ${name} pertence a la segunda clase junto con: ${arr2.join(', ')}`)
     } else {
         console.log(`No, ${name} no pertence a ninguna clase.`)
     }
